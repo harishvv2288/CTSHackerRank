@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1493346A22BFC05000612843 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493346922BFC05000612843 /* Constants.swift */; };
 		14CE198422BE4E5F002813F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE198322BE4E5F002813F1 /* AppDelegate.swift */; };
 		14CE198622BE4E5F002813F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CE198522BE4E5F002813F1 /* ViewController.swift */; };
 		14CE198922BE4E5F002813F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CE198722BE4E5F002813F1 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1493346922BFC05000612843 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		14CE198022BE4E5F002813F1 /* HackerRankProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerRankProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CE198322BE4E5F002813F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14CE198522BE4E5F002813F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1493346B22BFE73300612843 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				14CE19B122BE6ABF002813F1 /* Model.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		1493346C22BFE78200612843 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14CE198522BE4E5F002813F1 /* ViewController.swift */,
+				14CE198722BE4E5F002813F1 /* Main.storyboard */,
+				14CE198C22BE4E60002813F1 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1493346D22BFE82500612843 /* Helper classes */ = {
+			isa = PBXGroup;
+			children = (
+				1493346922BFC05000612843 /* Constants.swift */,
+				14CE19B322BE6D14002813F1 /* ServiceLayer.swift */,
+			);
+			path = "Helper classes";
+			sourceTree = "<group>";
+		};
+		1493346E22BFEAA900612843 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				14CE19B522BE6DC3002813F1 /* Feature.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		14CE197722BE4E5F002813F1 = {
 			isa = PBXGroup;
 			children = (
@@ -103,14 +140,12 @@
 		14CE198222BE4E5F002813F1 /* HackerRankProject */ = {
 			isa = PBXGroup;
 			children = (
+				1493346C22BFE78200612843 /* Views */,
+				1493346E22BFEAA900612843 /* Manager */,
+				1493346B22BFE73300612843 /* Data Model */,
+				1493346D22BFE82500612843 /* Helper classes */,
 				14CE198322BE4E5F002813F1 /* AppDelegate.swift */,
-				14CE198522BE4E5F002813F1 /* ViewController.swift */,
-				14CE19B522BE6DC3002813F1 /* Feature.swift */,
-				14CE198722BE4E5F002813F1 /* Main.storyboard */,
-				14CE19B322BE6D14002813F1 /* ServiceLayer.swift */,
-				14CE19B122BE6ABF002813F1 /* Model.swift */,
 				14CE198A22BE4E60002813F1 /* Assets.xcassets */,
-				14CE198C22BE4E60002813F1 /* LaunchScreen.storyboard */,
 				14CE198F22BE4E60002813F1 /* Info.plist */,
 			);
 			path = HackerRankProject;
@@ -270,6 +305,7 @@
 				14CE19B622BE6DC3002813F1 /* Feature.swift in Sources */,
 				14CE198422BE4E5F002813F1 /* AppDelegate.swift in Sources */,
 				14CE19B422BE6D14002813F1 /* ServiceLayer.swift in Sources */,
+				1493346A22BFC05000612843 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
